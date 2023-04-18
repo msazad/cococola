@@ -1,0 +1,80 @@
+
+.nav-item{
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.navbar-toggler{
+    border: none;
+    border-style: none;
+   
+}
+.navbar-toggler-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.main-sec{
+  margin-top: 40%;
+}
+.btn2{
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 15rem;
+  background-color: white;
+  color:  black;
+}
+#ok{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#fis{
+  font-weight: 500;
+}
+#sec{
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+#oo{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.btn3{
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 15rem;
+  background-color: ;
+  color:  white;
+}
+.btn4{
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 15rem;
+  color:  white;
+}
+btn4:hover{
+  cursor: none;
+  color: white;
+  border-color: none;
+}
+@media all and (max-width:575px) {
+  .btn4 { width: 100%; display:block; }
+}   
+hr{
+  line-height: 5px;
+  color: white;
+}
+li{
+  list-style: none;
+}
+@media all and (max-width:575px) {
+  .btn2 { width: 100%; display:block; }
+}   
